@@ -114,7 +114,7 @@ python train.py \
     --fine_tune_batch_norm=True \
     --tf_initial_checkpoint=./deeplabv3_mnv2_pascal_trainval_2018_01_29/model.ckpt \
     --train_logdir=./train_logdir \
-    --dataset_dir=./tfrecord \
+    --dataset_dir=/PATH/TO/TFRECORD_DIR \
     --initialize_last_layer=False \
     --last_layers_contain_logits_only=False
 ```
@@ -130,7 +130,7 @@ python eval.py \
     --output_stride=8 \
     --checkpoint_dir=./deeplabv3_mnv2_pascal_trainval_2018_01_29/trained \
     --eval_logdir=./eval_logdir \
-    --dataset_dir=./tfrecord
+    --dataset_dir=/PATH/TO/TFRECORD_DIR
 ```
 
 **NOTE**
@@ -163,7 +163,7 @@ python vis.py \
     --output_stride=8 \
     --checkpoint_dir="./deeplabv3_mnv2_pascal_trainval_2018_01_29/trained" \
     --vis_logdir=./vis_logdir \
-    --dataset_dir=./tfrecord \
+    --dataset_dir=/PATH/TO/TFRECORD_DIR \
     --max_number_of_evaluations=1
 ```
 

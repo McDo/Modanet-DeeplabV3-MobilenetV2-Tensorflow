@@ -26,7 +26,7 @@ python train.py \
     --fine_tune_batch_norm=True \
     --tf_initial_checkpoint=./deeplabv3_mnv2_pascal_trainval_2018_01_29/model.ckpt \
     --train_logdir=./train_logdir \
-    --dataset_dir=./tfrecord \
+    --dataset_dir=/PATH/TO/TFRECORD_DIR \
     --initialize_last_layer=False \
     --last_layers_contain_logits_only=False
 ```
