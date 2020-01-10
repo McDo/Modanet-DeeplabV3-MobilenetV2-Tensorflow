@@ -170,7 +170,7 @@ python vis.py \
 Since the deeplab with mobilenetv2 backnone doesn't use ASPP and Decoder as the postprocessing (check out the [model zoo](https://github.com/tensorflow/models/blob/master/research/deeplab/g3doc/model_zoo.md) for details), the MIOU is relative low compared to the full version. Here are some samples from the visualization results.
 
 <img alt="good results" src="./results/r1.jpg" />
-<br /><br />
+<br />
 <img alt="bad results" src="./results/r2.jpg" />
 
 
