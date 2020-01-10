@@ -177,7 +177,7 @@ Since the deeplab with mobilenetv2 backnone doesn't use ASPP and Decoder as the 
 ## References
 - data source - [cad0p/maskrcnn-modanet](https://github.com/cad0p/maskrcnn-modanet)
 - coco to voc - [alicranck/coco2voc](https://github.com/alicranck/coco2voc)
-- deeplab data process - [tensorflow deeplab](https://github.com/tensorflow/models/tree/master/research/deeplab/datasets)
+- deeplab V3 - [tensorflow deeplab](https://github.com/tensorflow/models/tree/master/research/deeplab/datasets)
 
 
 ## License
